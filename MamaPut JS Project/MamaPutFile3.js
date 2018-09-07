@@ -23,7 +23,7 @@ var grandTotal= subTotal + delivery + vat;
 
 //Get element that has an id of greeting & update content
 var el= document.getElementById('greeting');
-el.innerHTML = welcome;
+document.write = welcome;
 
 //Get element that has id of usercode & update content
 var elCode= document.getElementById('usercode');
