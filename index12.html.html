@@ -2,13 +2,7 @@
 <html>
 <head>
 
-	<script>
 
-	var firstName = prompt('What is your first name?'); 
-	var lastName =	prompt('What is your last name?');
-				alert('Hello ' + firstName+' '+lastName + ' , You are welcome to my CV webpage, Enjoy!');
-
-	</script>
 <style>
 body{
 	font-family: bodoni mt, times new roman;
@@ -39,7 +33,7 @@ body{
 }
 
 #content{
-	padding: 10px
+	padding: 10px;
 }
 
 #nav{
@@ -50,9 +44,6 @@ body{
 		text-align: center;
 		text-decoration: none;
 		background-color: white;
-		list-style-type: none;
-		padding: 0;
-		display: inline-table
 }
 
 .selected11, .selected12, .selected13 {
@@ -60,16 +51,18 @@ body{
 }
 
 
-#nav ul{
+    
+#nav ul li {
 	list-style-type: none;
-	padding: 0;
+    display: inline-block;
+    padding: 5px 20px;
 }
 
 #nav .selected {
-	font-weight: bold
+	font-weight: bold;
 }
 
-a {
+nav ul li a {
 	color: red;
 	text-decoration: none;
 }
@@ -103,9 +96,6 @@ text-align: center;
 	padding: 10px;
 }
 
-
-
-
 .selected011 {text-decoration: none;}
 
 figcaption{
@@ -131,38 +121,41 @@ text-align: center;
 					<li><a href="www.ikechukwuka.wordpress.com">Author's blog</a></li>
 					<li><a href="#About">About This Webpage</a></li>
 				</ul>
+                
+                <div id="figures">
 				<figure class= "selected00">
-						<img src="https://ikechukwuka.files.wordpress.com/2016/10/capture2018.jpg" height="200" width="200" 
+						<img src="Capture2018.jpg" height="200" width="200" 
 						alt="My favorite passport" title="Probably my favourite passport" />
 						<figcaption>My Passport</figcaption>
 
 					</figure>
 
 					<figure class= "selected01">
-							<img src="https://ikechukwuka.files.wordpress.com/2016/10/onsite.jpg" height="200" width="200" 
+							<img src="onsite.jpg" height="200" width="200" 
 							alt="Lekki, Lagos" title="Site: Lekki, Lagos, 2016" />
 							<figcaption>Civil Engineers at Work</figcaption>
 						</figure>
 
 						<figure class= "selected02">
-								<img src="https://ikechukwuka.files.wordpress.com/2016/10/unipicture1.jpg" height="200" width="200" 
+								<img src="unipicture.jpg" height="200" width="200" 
 								alt="The Coursemates" title="Me & My Coursemates, 2014" />
 								<figcaption>My Dept Mates</figcaption>
 								</figure>
 								
 								<figure class= "selected03">
-										<img src="https://ikechukwuka.files.wordpress.com/2016/10/nice20162.jpg" height="200" width="200" 
+										<img src="nice20162.jpg" height="200" width="200" 
 										alt="NICE Conference" title="NICE National Conference @ Federal Palace Hotel, 2016" />
 										<figcaption>NICE 2016</figcaption>
 		
 									</figure>
 
 									<figure class= "selected04">
-											<img src="https://ikechukwuka.files.wordpress.com/2016/10/nice20161.jpg" height="200" width="200" 
+											<img src="nice20161.jpg" height="200" width="200" 
 											alt="My favorite passport" title="NICE 2016 @ Federal Palace Hotel" />
 											<figcaption>Me and Martini</figcaption>
 			
 										</figure>
+                        </div>
 			</div>
 				<div id="main">
 							<p align="right"><b>Benedict NKEONYE</b> <br/>
@@ -249,5 +242,12 @@ text-align: center;
 </div>
 
 </body>
+<!--                        
+	<script>
 
+	var firstName = prompt('What is your first name?');
+	var lastName =	prompt('What is your last name?');
+				alert('Hello ' + firstName+' '+lastName + ' , You are welcome to my CV webpage, Enjoy!');
+	</script>
+-->
 </html>
