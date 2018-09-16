@@ -4,26 +4,42 @@
   <title>My CV</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="bootstrap4.1.3/css/bootstrap.min.css">
     
-
 </head>
 
-<body style="font-family: bodoni mt, times new roman;"> 
+<body id="#Top" style="font-family: bodoni mt, times new roman;"> 
+ <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="benneee.github.io/respCV.html">My Curriculum Vitae</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="benneee.github.io/respCV.html">Home<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="www.facebook.com/cyprian.i.nkeonye">Find Author</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="www.ikechukwuka.wordpress.com">Author's Blog</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="#About">About This Webpage</a>
+      </li>
+      <li class="nav-item">  
+       
+            <button class= "text-centre" id="date" type="button" onclick = date()>Date and time</button>
+     </li>
+  </ul>
+  </div>
+</nav>
+    
     
    <div class="container"> 
-				<h1 style="display: inline;">My Curriculum Vitae</h1>
-   
-    
-	   <div class="nav nav-tabs" role="tablist" style="display: inline-block; padding: 0 5px 0 50px;">
-				<ul class="list-unstyled list-inline">
-					<li><a class="selected" style="color: red;" href="benneee.github.io/index12.html">Home</a></li>
-					<li><a href="www.facebook.com/cyprian.i.nkeonye">Find Author</a></li>
-					<li><a href="www.ikechukwuka.wordpress.com">Author's blog</a></li>
-					<li><a href="#About">About This Webpage</a></li>
-				</ul>
-           </div> 
-
+				
 				    <div>
 						<p class="text-right"><b>Benedict NKEONYE</b></p>
 				        <p class="text-right">Location:  Lagos </p>
@@ -34,7 +50,8 @@
                
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-4 col-sm-4">
+                        <div class="col-4 col-sm-4">
+                        <div class="row justify-content-start">
 				            <figure class= "selected00">
                                 <img src="img2018.jpg" height="200" width="200" 
                                 alt="My favorite passport" title="Probably my favourite passport" />
@@ -66,12 +83,10 @@
 											alt="My favorite passport" title="NICE 2016 @ Federal Palace Hotel" />
 											<figcaption>Me and Martini</figcaption>
 										</figure>
-                      
+                            </div>
                 </div>	
     
-    
-                        <div class="col-md-8 col-sm-8">
-							<button class= "text-centre" id="date" type="button" onclick = date()>Date and time</button>
+                        <div class="col-8 col-sm-8">
 								
                                     <div class="lead">
 										<h2 class="text-center"><b>PROFESSIONAL SUMMARY</b></h2>
@@ -150,26 +165,31 @@
                         </div>
          </div>
     </div>
-										
-							<footer class="text-right bg-success clearfix">&copy;2018 Benedict Ik Nkeonye</footer>
 								
+                            <div id = "About" class="bg-secondary">
+											<p class="text-center">Benedict is a creative and talented individual who derives joy in building things.</p>
+										</div>
+       
+							<footer class="text-center bg-success clearfix">&copy;2018 Benedict Ik Nkeonye</footer>
+					<a href="#Top" class="text-center">Go Top!</a>			
 						
 </div>
+    <!--
 	<script>                   
 	var firstName = prompt('What is your first name?');
 	var lastName =	prompt('What is your last name?');
 				alert('Hello ' + firstName+' '+lastName + ' , You are welcome to my CV webpage, Enjoy!');
 </script>
-
+-->
 <script>
 function date(){
 	var date =document.getElementById('date');
 	date.innerHTML = Date();
 }
 </script>
-    
-  <script src="ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
+   <script src="bootstrap4.1.3/js/bootstrap.min.js"></script> 
+  <script src="bootstrap4.1.3/js/jquery-3.3.1.min.js"></script>
+  <script src="bootstrap4.1.3/js/popper.min.js"></script>
 
     </body>
 </html>
