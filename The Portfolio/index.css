@@ -1,0 +1,50 @@
+.About {
+    background-color: rgb(75, 100, 200); 
+    border: 1px solid grey;
+}
+
+.Container{
+	background-color: #FFFFFF;
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+body {
+    margin: 0px;
+    font-family: bodoni mt, times new roman;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style-type: none;
+}
+
+#WE {
+	background-color: rgb(0, 187, 136);
+    border: 1px solid grey;
+}
+
+.Education {
+	background-color: rgb(140, 202, 242);
+    border: 1px solid grey;
+}
+
+
+a:hover {
+  color: #ed6c7b !important;}
+
+#CP{
+    background-color: rgb(114, 193, 240);
+    border: 1px solid grey;
+}
+
+#AC{
+    background-color: rgb(244, 123,166);
+    border: 1px solid grey;
+}
+
+
+
+#TB{
+    background-color: cornflowerblue; 
+}
