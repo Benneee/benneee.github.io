@@ -456,6 +456,7 @@
     width: 100%;
   }
 
+
   .single-project-card {
     width: 48%;
     margin-right: 10px;
@@ -482,6 +483,14 @@
   .container {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  @media (max-width: 768px) {
+    .flex-items {
+      justify-self: center;
+      width: 100%
+    }
   }
 
   #one {
@@ -540,10 +549,27 @@
     margin-bottom: 20px;
   }
 
-  div.input-group.half {
-    width: 49%;
-    float: left;
+  .container-form {
+    display: block;
+    flex-direction: column;
+    align-items: baseline;
   }
+
+  @media (min-width: 1000px) {
+    div.input-group.half {
+      width: 49%;
+    }
+
+    label.right-inline {
+      text-align: right;
+      align-self: flex-end;
+    }
+  }
+
+    input#name {
+      margin-left: 15px;
+    }
+  
 
   div.input-group.clear {
     padding-top: 20px;
