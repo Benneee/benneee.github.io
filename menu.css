@@ -28,7 +28,7 @@
   width: 60px;
   height: 60px;
   padding: 1rem;
-  background: var(--primary-color);
+  background: var(--secondary-color);
   display: flex;
   align-items: center;
   justify-content: center;
