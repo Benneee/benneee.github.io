@@ -53,7 +53,7 @@ body {
 
 #showcase h1 {
   font-size: 4rem;
-  transition: all ease-out 1s;
+  transition: all ease-out 2s;
 }
 
 #showcase p {
@@ -62,6 +62,17 @@ body {
 
 #showcase h1:hover {
   color: rgb(243, 171, 145);
+}
+
+@media only screen and (max-width: 500px) and (max-width: 768px) and (max-width: 1200px) {
+  #showcase h1 {
+    font-size: 2.5rem;
+    transition: all ease-out 1s;
+  }
+
+  #showcase p {
+    font-size: 1rem;
+  }
 }
 
 .btn {
@@ -89,6 +100,13 @@ body {
 .logos img {
   width: 100px;
   height: 100px;
+}
+
+@media only screen and (max-width: 500px) and (max-width: 768px) and (max-width: 1200px) {
+  .logos img {
+    width: 75px;
+    height: 75px;
+  }
 }
 
 .logos #a,
