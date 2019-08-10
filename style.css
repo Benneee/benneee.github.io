@@ -64,17 +64,6 @@ body {
   color: rgb(243, 171, 145);
 }
 
-@media only screen and (max-width: 500px) and (max-width: 768px) and (max-width: 1200px) {
-  #showcase h1 {
-    font-size: 2.5rem;
-    transition: all ease-out 1s;
-  }
-
-  #showcase p {
-    font-size: 1rem;
-  }
-}
-
 .btn {
   display: inline-block;
   border: none;
@@ -100,13 +89,6 @@ body {
 .logos img {
   width: 100px;
   height: 100px;
-}
-
-@media only screen and (max-width: 500px) and (max-width: 768px) and (max-width: 1200px) {
-  .logos img {
-    width: 75px;
-    height: 75px;
-  }
 }
 
 .logos #a,
@@ -187,4 +169,40 @@ body {
 
 .logos #b:hover {
   animation-play-state: paused;
+}
+
+@media only screen and (min-width: 360px) and (min-width: 360px) and (max-width: 400px) {
+  body {
+    line-height: 1.2;
+  }
+  #showcase h1 {
+    font-size: 2rem;
+    transition: all ease-out 1s;
+  }
+
+  #showcase p {
+    font-size: 1rem;
+  }
+  .logos img {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media only screen and (max-width: 500px) and (max-width: 768px) and (max-width: 1200px) {
+  body {
+    line-height: 1.2;
+  }
+  #showcase h1 {
+    font-size: 2rem;
+    transition: all ease-out 1s;
+  }
+
+  #showcase p {
+    font-size: 1rem;
+  }
+  .logos img {
+    width: 75px;
+    height: 75px;
+  }
 }
